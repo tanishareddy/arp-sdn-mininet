@@ -123,23 +123,23 @@ H2 knows: 10.0.0.1 is at 3a:4a:22:16:be:9c
 
 ### Screenshot 1 - POX Controller ARP Logs
 Shows host discovery, ARP interception, and proxy ARP replies from the controller.
-![POX ARP Logs](screenshots/pox_arp_logs.png)
+![POX ARP Logs](pox_arp_logs.png)
 
 ### Screenshot 2 - pingall Results
 Shows 0% packet loss confirming all hosts can communicate.
-![pingall Results](screenshots/pingall.png)
+![pingall Results](pingall.png)
 
 ### Screenshot 3 - ping Results
 Shows latency measurements between H1 and H2.
-![Ping Results](screenshots/ping_results.png)
+![Ping Results](ping_results.png)
 
 ### Screenshot 4 - iperf Throughput
 Shows bandwidth measurement of 8.59 Mbits/sec between hosts.
-![iperf Results](screenshots/iperf_results.png)
+![iperf Results](iperf_results.png)
 
 ### Screenshot 5 - ARP Table
 Shows H1 and H2 have learned each others MAC addresses through the controller.
-![ARP Table](screenshots/arp_table.png)
+![ARP Table](arp_table.png)
 
 ## How It Works
 1. Host H1 sends an ARP Request - Who has 10.0.0.2?
